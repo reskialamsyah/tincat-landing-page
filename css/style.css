@@ -54,16 +54,25 @@ li,
 }
 
 /* Button */
-.btn-primary {
+.btn-subscribe {
+  color: white;
   background-color: #ffa62f;
   border-color: #ffa62f;
   font-weight: 600;
 }
 
-.btn-primary:hover {
+.btn-subscribe:hover {
+  color: white;
   background-color: #e68f3a;
   border-color: #e68f3a;
 }
+
+.btn-subscribe:active {
+  background-color: #ffa62f;
+  color: #ffa62f;
+}
+
+
 
 /* Section Features */
 .feature-icon {
