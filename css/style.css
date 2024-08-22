@@ -1,6 +1,7 @@
 /* Hero Background Gradient Animation */
 .gradient-background {
   background: linear-gradient(300deg, #f8c671, #feffd2, #ffa62f);
+  /* background: linear-gradient(300deg, #f8c671, #feffd2, #ffa62f); */
   background-size: 180% 180%;
   animation: gradient-animation 18s ease infinite;
 }
@@ -48,6 +49,10 @@ li,
   border-radius: 50%;
 }
 
+.dropdown-item:active {
+  background-color: #ffa62f;
+}
+
 /* Button */
 .btn-primary {
   background-color: #ffa62f;
@@ -67,12 +72,15 @@ li,
   border-radius: 0.75rem;
   background-color: #ffa62f;
 }
-
 .img-tincat-hide {
   display: none;
 }
 
 @media (max-width: 991.9px) {
+  .img-tincat-heroes {
+    display: none;
+  }
+
   .img-tincat {
     display: none;
   }
@@ -116,4 +124,12 @@ li,
 .btn-apps-text {
   display: flex;
   flex-direction: column;
+}
+
+#footer .nav-link {
+  color: #000000a6;
+}
+
+#footer .nav-link:hover {
+  color: black;
 }
